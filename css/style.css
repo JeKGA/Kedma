@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;900&family=Noto+Sans&family=Potta+One&family=Yusei+Magic&display=swap');
+
+a{
+    
+}
+#header {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+header .image-wraper {
+    height: 100vh;
+    ;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    overflow: hidden;
+
+}
+
+header .image-wraper img {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.5;
+    object-fit: cover;
+    animation: zoom 15s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1.3);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+.banner {
+    position: absolute;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    color: whitesmoke;
+    z-index: 4;
+    ;
+}
+
+.quem-sou-eu {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+}
+
+.lista-quem-sou {
+    list-style: none;   
+    text-align: center; 
+    line-height: 2em;
+}
+
+.titulo-quem-sou {
+    margin-bottom: 1em;
+    text-align: center;
+    margin-left: 40px;
+
+}
